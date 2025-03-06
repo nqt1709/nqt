@@ -5,6 +5,7 @@
     {
         public string hoten, gioitinh, diachi;
         public int namsinh;
+        public int stt;
 
         public PerSon() { }
         public PerSon (string hoten, string gioitinh, string diachi, int namsinh)
@@ -24,6 +25,8 @@
             diachi  = Console.ReadLine();
             Console.Write("Nhap nam sinh : ");
             namsinh = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Nhap stt : ");
+            stt = Convert.ToInt32(Console.ReadLine());
         }
         public virtual void showInfo()
         {
